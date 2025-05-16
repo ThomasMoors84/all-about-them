@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main style={mainStyle}>
       <header style={headerStyle}>
-        <h1 style={titleStyle}>All About Them 🚀</h1>
+<h1>🔥 Hello from the flattened folder</h1>
         <p style={subtitleStyle}>
           Discover the world of celebrities — bios, news, tour dates, and more.
         </p>
