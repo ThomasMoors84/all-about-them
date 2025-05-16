@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <main style={mainStyle}>
       <header style={headerStyle}>
-<h1>🔥 Hello from the flattened folder</h1>
+        <h1>🔥 Hello from the flattened folder</h1>
         <p style={subtitleStyle}>
           Discover the world of celebrities — bios, news, tour dates, and more.
         </p>
@@ -81,43 +81,43 @@ export default function Home() {
   );
 }
 
-// --- Inline styles
+// --- Inline styles (typed as any for TypeScript)
 
-const mainStyle = { fontFamily: 'Arial, sans-serif', padding: '2rem' };
-const headerStyle = { textAlign: 'center', marginBottom: '3rem' };
-const titleStyle = { fontSize: '3rem', margin: 0 };
-const subtitleStyle = { fontSize: '1.2rem', color: '#666' };
-const sectionStyle = { marginBottom: '3rem' };
-const sectionTitle = { fontSize: '1.8rem', marginBottom: '0.5rem' };
-const sectionDesc = { fontSize: '1rem', color: '#555', marginBottom: '1.5rem' };
-const listStyle = {
+const mainStyle: any = { fontFamily: 'Arial, sans-serif', padding: '2rem' };
+const headerStyle: any = { textAlign: 'center', marginBottom: '3rem' };
+const titleStyle: any = { fontSize: '3rem', margin: 0 };
+const subtitleStyle: any = { fontSize: '1.2rem', color: '#666' };
+const sectionStyle: any = { marginBottom: '3rem' };
+const sectionTitle: any = { fontSize: '1.8rem', marginBottom: '0.5rem' };
+const sectionDesc: any = { fontSize: '1rem', color: '#555', marginBottom: '1.5rem' };
+const listStyle: any = {
   listStyle: 'none',
   padding: 0,
   display: 'flex',
   flexWrap: 'wrap',
   gap: '1.5rem',
 };
-const cardStyle = {
+const cardStyle: any = {
   background: '#f9f9f9',
   padding: '1.2rem',
   borderRadius: '8px',
   boxShadow: '0 2px 6px rgba(0,0,0,0.08)',
   width: '220px',
 };
-const searchFormStyle = {
+const searchFormStyle: any = {
   marginTop: '1.5rem',
   display: 'flex',
   justifyContent: 'center',
   gap: '0.5rem',
 };
-const searchInputStyle = {
+const searchInputStyle: any = {
   padding: '0.6rem 1rem',
   width: '300px',
   fontSize: '1rem',
   border: '1px solid #ccc',
   borderRadius: '4px',
 };
-const searchButtonStyle = {
+const searchButtonStyle: any = {
   padding: '0.6rem 1.2rem',
   fontSize: '1rem',
   backgroundColor: '#111',
